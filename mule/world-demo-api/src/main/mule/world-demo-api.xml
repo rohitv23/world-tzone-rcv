@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8089" />
 	</http:listener-config>
 	<http:listener-config name="HTTP_Listener_config1" doc:name="HTTP Listener config" doc:id="3abcd52a-178b-4e0c-8120-10c972b1eb98" basePath="/timezone" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8089" />
 	</http:listener-config>
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="f3d5ca25-6ef6-4f96-a0ca-4b7667247ad4" basePath="/api/timezone" >
 		<http:request-connection host="worldtimeapi.org" />
