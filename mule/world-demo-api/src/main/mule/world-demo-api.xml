@@ -23,5 +23,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	city : attributes.uriParams.city
 }]]]></http:uri-params>
 		</http:request>
+		<logger level="DEBUG" doc:name="Logger" doc:id="552a52dd-20f5-407b-97e3-7e73badb38ec" category="app.debug"/>
 	</flow>
 </mule>
